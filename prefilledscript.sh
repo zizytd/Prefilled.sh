@@ -24,7 +24,7 @@ do
       shift
       ;;
     -h)
-      echo -e "$HelpMessage"
+      echo -e "$HelpMessage" # the -e option to enable the backlashes used for the new line and tab in the string
       shift
       ;;
     *)
@@ -35,7 +35,7 @@ do
    esac
   
 done
-touch $name$number.txt
+touch $name$number.txt #creates a text file with the name and number you parsed on the --name and --number parameter
 #resetting positional arguments after options. 
 set -- "${RESETPOSITIONAL[@]}"
 
