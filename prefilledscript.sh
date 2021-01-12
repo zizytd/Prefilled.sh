@@ -7,7 +7,7 @@ number=0
 RESETPOSITIONAL=()
 
 #help message to be echoed when you use the -h option
-HelpMessage="This is a help page for this script.\nThis script have the format ./create-prefilled-file.sh [options] <text>\nif you use the optional option \n\t--name, it creates a text file with name of your input parameter as the name of the text file e.g name.txt.\nIf you use the optional option \n\t--number it appends a number your inputed to the name of the file e.g name1.txt.\nIf you use the optional option \n\t-h it opens this help page.\n<text> should end up in the text file."
+HelpMessage="This is a help page for this script.\nThis script have the format ./prefilledscript.sh [options] <text>\nif you use the optional option \n\t--name, it creates a text file with name of your input parameter as the name of the text file e.g name.txt.\nIf you use the optional option \n\t--number it appends a number your inputed to the name of the file e.g name1.txt.\nIf you use the optional option \n\t-h it opens this help page.\n<text> should end up in the text file."
 
 
 while [ $# -gt 0 ]
